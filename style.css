@@ -1,0 +1,76 @@
+body{
+    background-size:1700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+    #heading{
+margin-top: 0px; background-image:linear-gradient(deepskyblue, paleturquoise);padding: 20px;font-family: Impact; font-size: 30px;text-shadow: 3px 3px 9px yellow;box-shadow: 10px 10px 20px navy;
+
+
+    }
+
+    #note{
+font-size: 18px;font-family:'Tahoma';margin-top: 5px;text-shadow: 4px 4px 8px magenta;
+
+    }
+
+    #speaker{
+float: left; width: 200px; height: 200px;margin-left: 30px;border-radius: 100px;box-shadow: 5px 5px 10px 8px black;
+
+    }
+
+    #speaker_2{
+float: right; width: 200px; height: 200px;margin-right: 30px;border-radius: 100px;box-shadow: 5px 5px 10px 8px black;
+        
+    
+            }
+
+    .name{
+float: center;background-color: navy;width: 300px;font-family: 'Trebuchet Ms';font-size: 18px;color: white; padding: 10px;border-radius: 20px;
+
+
+    }
+
+#song_name{
+
+    font-size: 20px; background-color: white;color: black; border: 2px solid black; transition-duration: 0.5s;padding: 5px;
+    
+}
+
+#song_name:hover{
+
+background-color: black;color: white; border-color: white;
+
+}
+
+canvas{
+    border: 6px inset darkblue;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 180px;
+    animation-duration: 1.5s;
+    
+        }
+    
+        @keyframes example{
+    from{box-shadow: 5px 5px 30px purple;}
+    to {box-shadow: 5px 5px 30px turquoise;}
+    
+        }
+
+    #stop{
+background-color: rgb(133, 71, 195);color: white;width: 200px;height: 40px;font-family: 'Trebuchet MS';font-size: 17px;border-radius: 30px;border-color: white;
+transition-duration: 0.3s;
+
+    }
+
+    #stop:hover{
+background-color: white;color:rgb(133, 71, 195); border-color: rgb(133, 71, 195);
+
+    }
+    
+        
+
+    
